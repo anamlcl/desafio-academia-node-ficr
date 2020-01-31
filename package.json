@@ -4,7 +4,7 @@
   "description": "Neste desafio você deverá desenvolver uma api que retorna um currículo dinâmico. Para isso, você deverá comunicar-se com dois serviços para capturar informações. A api do Facebook e a api do Github.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,13 +17,11 @@
   },
   "homepage": "https://github.com/anamlcl/desafio-academia-node-ficr#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "fb": "^2.0.0"
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  },  
-  "scripts": {
-    "test": "jest"
   }
 }
-
